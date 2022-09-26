@@ -1327,6 +1327,16 @@
           "type": "PROPERTY"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/COB_0000082",
+          "lbl": "planned process",
+          "meta": {
+            "definition": {
+              "val": "A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification."
+            }
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/GO_0003674",
           "lbl": "molecular_function",
           "meta": {

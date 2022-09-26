@@ -2252,6 +2252,15 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COB_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000082">
+        <obo:IAO_0000115>A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification.</obo:IAO_0000115>
+        <rdfs:label>planned process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">

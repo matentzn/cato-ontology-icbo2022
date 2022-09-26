@@ -88,6 +88,11 @@ id: CATO:0000000
 name: root node
 
 [Term]
+id: COB:0000082
+name: planned process
+def: "A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification." []
+
+[Term]
 id: GO:0003674
 name: molecular_function
 is_a: BFO:0000015 ! process
