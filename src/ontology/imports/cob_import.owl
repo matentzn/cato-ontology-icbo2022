@@ -2,12 +2,12 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/cato/imports/cob_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/cato/imports/cob_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cato/imports/cob_import.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cato/releases/2022-09-26/imports/cob_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/cob/releases/2022-05-02/cob.owl"/>
@@ -27,9 +27,29 @@
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COB_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000082">
+        <obo:IAO_0000115>A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification.</obo:IAO_0000115>
+        <rdfs:label>planned process</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

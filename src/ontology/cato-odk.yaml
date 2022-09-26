@@ -16,6 +16,7 @@ import_group:
   products: 
     - id: ro
     - id: cob
+      module_type: filter
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
